@@ -1,0 +1,5 @@
+.idea/
+__pycache__
+tdt_log.log
+venv/
+temp
