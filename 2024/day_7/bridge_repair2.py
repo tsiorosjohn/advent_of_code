@@ -55,6 +55,7 @@ def check_result(line_f):
     combinations = generate_combinations(elements)
     print(f"{combinations = }")
     for result, expression in combinations:
+        # if result is not NoneType:
         print(f"xxxxxxxxxxx: {expression} = {result}")
         if ls_result == int(result):
             return result
